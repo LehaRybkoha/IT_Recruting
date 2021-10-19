@@ -1,10 +1,16 @@
+import './styles/fonts.scss'
+import './styles/mixins.scss'
+
 import Vue from 'vue'
 import App from './App.vue'
-import store from './store'
+import VueAnimateOnScroll from 'vue-animate-onscroll'
+import VueSmoothScroll from 'vue2-smooth-scroll'
+
+Vue.use(VueSmoothScroll)
+Vue.use(VueAnimateOnScroll)
 
 Vue.config.productionTip = false
 
 new Vue({
-  store,
   render: h => h(App)
 }).$mount('#app')

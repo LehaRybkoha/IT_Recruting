@@ -1,0 +1,7 @@
+@mixin position_images($left:unset, $right:unset, $top:unset, $bottom:unset) {
+    position: absolute;
+    left: $left;
+    right: $right;
+    top: $top;
+    bottom: $bottom;
+}

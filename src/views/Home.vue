@@ -12,14 +12,14 @@
         </section>
         <section class="about">
             <div class="container">
-                <h1 v-animate-onscroll.repeat="'animated fadeInLeft'" class="about__title">Привет!<br> Мы набираем <span
+                <h1 v-animate-onscroll="'animated fadeInLeft'" class="about__title">Привет!<br> Мы набираем <span
                         class="about__title-black">крутых и сильных</span>
                     IT-специалистов в нашу команду.</h1>
-                <div v-animate-onscroll.repeat="'animated fadeInLeft'" class="about__desc">
+                <div v-animate-onscroll="'animated fadeInLeft'" class="about__desc">
                     Реальные возможности для личного и профессионального развития
                     в Самарском офисе компании.
                 </div>
-                <div class="about__slider slider" v-animate-onscroll.repeat="'animated pulse'">
+                <div class="about__slider slider" v-animate-onscroll="'animated pulse'">
                     <swiper ref="mySwiper" :options="swiperOptions">
                         <swiper-slide v-for="(slide, idx) of slides" :key="idx">
                             <div class="slider__item">
@@ -38,7 +38,7 @@
             </div>
         </section>
         <div class="section__wrapper container">
-            <section v-animate-onscroll.repeat="'animated fadeInRight'" class="advantages">
+            <section v-animate-onscroll="'animated fadeInRight'" class="advantages">
                 <div class="advantages__wrapper">
                     <h2 class="advantages__title">Больше преимуществ?<br>Рассказываем!</h2>
                     <ul class="advantages__content">
@@ -83,7 +83,7 @@
                     Откликнуться!
                 </a>
             </section>
-            <section v-animate-onscroll.repeat="'animated fadeInLeft'" class="products">
+            <section v-animate-onscroll="'animated fadeInLeft'" class="products">
                 <div class="lines">
                     <div  class="lines__line lines__line--red"></div>
                     <div class="lines__line lines__line--blue"></div>
@@ -122,7 +122,7 @@
                 </div>
             </section>
         </div>
-        <section v-animate-onscroll.repeat="'animated fadeInRight'" class="garant">
+        <section v-animate-onscroll="'animated fadeInRight'" class="garant">
             <div class="container">
                 <h2 class="garant__title">
                     Мы гарантируем...
@@ -144,10 +144,10 @@
         </section>
         <section class="requirements" v-if="window.width < 1200">
             <div class="container container-slider">
-                <img v-animate-onscroll.repeat="'animated fadeInDown'" src="../assets/java.png" alt="Java" class="animate-img__java">
-                <img v-animate-onscroll.repeat="'animated fadeInDown'" src="../assets/css.png" alt="CSS" class="animate-img__css">
-                <img v-animate-onscroll.repeat="'animated fadeInDown'" src="../assets/html.png" alt="HTML" class="animate-img__html">
-                <h2  v-animate-onscroll.repeat="'animated fadeInRight'" class="requirements__title">Но есть ожидания...</h2>
+                <img v-animate-onscroll="'animated fadeInDown'" src="../assets/vue.png" alt="vue" class="animate-img__vue">
+                <img v-animate-onscroll="'animated fadeInDown'" src="../assets/js.png" alt="JS" class="animate-img__js">
+                <img v-animate-onscroll="'animated fadeInDown'" src="../assets/laravel.png" alt="laravel" class="animate-img__laravel">
+                <h2  v-animate-onscroll="'animated fadeInRight'" class="requirements__title">Но есть ожидания...</h2>
                 <div class="requirements__slider slider">
                     <swiper ref="mySwiper" :options="swiperOptions">
                         <swiper-slide>
@@ -318,11 +318,11 @@
                 </div>
             </div>
         </section>
-        <section v-animate-onscroll.repeat="'animated fadeIn'" class="requirements" v-else>
+        <section v-animate-onscroll="'animated fadeIn'" class="requirements" v-else>
             <div class="container">
-                <img v-animate-onscroll.repeat="'animated fadeInDown'" src="../assets/java.png" alt="Java" class="animate-img__java">
-                <img v-animate-onscroll.repeat="'animated fadeInDown'" src="../assets/css.png" alt="CSS" class="animate-img__css">
-                <img v-animate-onscroll.repeat="'animated fadeInDown'" src="../assets/html.png" alt="HTML" class="animate-img__html">
+                <img v-animate-onscroll="'animated fadeInDown'" src="../assets/vue.png" alt="vue" class="animate-img__vue">
+                <img v-animate-onscroll="'animated fadeInDown'" src="../assets/js.png" alt="JS" class="animate-img__js">
+                <img v-animate-onscroll="'animated fadeInDown'" src="../assets/laravel.png" alt="Laravel" class="animate-img__laravel">
                 <img src="../assets/rotating-el.png" alt="" class="animate-img">
                 <svg class="requirements__bg" width="2250" height="574" viewBox="0 0 1800 574" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M450.938 58.7858C450.938 58.7858 1095.72 129.032 1502 70.3791C1800.5 27.2855 2020.79 -73.2141 2020.79 89.5025C2020.79 252.219 1475.5 709 1229.01 526.353C982.518 343.706 617.391 614.689 420 564.786C-4.84274 457.38 -197 194.79 -197 463.837C-197 857.888 450.938 58.7858 450.938 58.7858Z" fill="#00E0FF"/>
@@ -492,7 +492,7 @@
                 </div>
             </div>
         </section>
-        <section v-animate-onscroll.repeat="'animated fadeInLeft'" class="ending">
+        <section v-animate-onscroll="'animated fadeInLeft'" class="ending">
             <div class="container">
                 <h2 class="ending__title">Дружеская атмосфера<br>и команда лучших профессионалов ждёт тебя!</h2>
                 <p class="ending__desc">Готовы поддерживать на всех уровнях, ведь мы – одна большая семья.</p>
@@ -683,7 +683,8 @@
         @keyframes move_second {
             0% {left: -300px }
             50% {left: 100px }
-            100% {left: -20px}
+            75% { left: -30px }
+            100% {left: 0}
         }
         @keyframes move_first_lg { from { left: -500px } to { left: 45% } }
         @keyframes move_second_lg {
@@ -718,13 +719,13 @@
 
         &__first, &__second {
             font-family: Impact, sans-serif;
-            font-size: 144px;
             color: $mainColor;
             font-weight: normal;
             position: absolute;
         }
 
         &__first {
+            font-size: 144px;
             top: 29px;
             left: 40px;
             animation: 1s linear move_first;
@@ -737,9 +738,10 @@
 
         &__second {
             top: 150px;
-            left: -27px;
-            animation: 1s linear move_second;
+            left: 0;
+            animation: 1.5s linear move_second;
             white-space: nowrap;
+            font-size: 104px;
             &--lg {
                 display: none;
                 @media screen and (min-width: 800px) {
@@ -1002,10 +1004,9 @@
             font-family: "Segoe UI", sans-serif;
             color: $redColor;
             font-size: 36px;
-            text-align: right;
+            text-align: left;
             font-weight: 900;
             @media screen and (min-width: 1200px) {
-                text-align: left;
                 color: #000000;
             }
             @media screen and (min-width: 1340px) {
@@ -1446,23 +1447,23 @@
         @media screen and (min-width: 1200px) {
             display: block;
         }
-        &__java {
-            @include position_images(-27%, unset, unset, 40px);
+        &__vue {
+            @include position_images(-22%, unset, unset, 20px);
             @media screen and (min-width: 1200px) {
                 width: unset;
-                @include position_images(2%, 0, unset, unset)
+                @include position_images(8%, -4%, unset, unset)
             }
         }
-        &__html {
-            @include position_images(-8%, 10px, unset, unset);
+        &__laravel {
+            @include position_images(-8%, -10px, unset, unset);
             @media screen and (min-width: 1200px) {
                 width: unset;
                 @include position_images(-8%, 200px, unset, unset)
             }
         }
-        &__css {
+        &__js {
             width: 98px;
-            @include position_images(-12%, 150px, unset, unset);
+            @include position_images(-16%, 85px, unset, unset);
             @media screen and (min-width: 1200px) {
                 width: unset;
                 @include position_images(-24%, 0px, unset, unset)

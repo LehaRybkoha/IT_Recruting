@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "google-spreadsheet": "^3.1.15",
     "swiper": "5.x",
+    "v-mask": "^2.3.0",
     "vue": "^2.6.11",
     "vue-animate-onscroll": "^1.0.8",
     "vue-animate-scroll": "^0.1.5",

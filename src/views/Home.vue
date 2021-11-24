@@ -85,7 +85,7 @@
             </section>
             <section v-animate-onscroll="'animated fadeInLeft'" class="products">
                 <div class="lines">
-                    <div  class="lines__line lines__line--red"></div>
+                    <div class="lines__line lines__line--red"></div>
                     <div class="lines__line lines__line--blue"></div>
                     <div class="lines__line lines__line--black"></div>
                     <div class="lines__line lines__line--blue lines__line--blue-sec"></div>
@@ -144,16 +144,20 @@
         </section>
         <section class="requirements" v-if="window.width < 1200">
             <div class="container container-slider">
-                <img v-animate-onscroll="'animated fadeInDown'" src="../assets/vue.png" alt="vue" class="animate-img__vue">
+                <img v-animate-onscroll="'animated fadeInDown'" src="../assets/vue.png" alt="vue"
+                     class="animate-img__vue">
                 <img v-animate-onscroll="'animated fadeInDown'" src="../assets/js.png" alt="JS" class="animate-img__js">
-                <img v-animate-onscroll="'animated fadeInDown'" src="../assets/laravel.png" alt="laravel" class="animate-img__laravel">
-                <h2  v-animate-onscroll="'animated fadeInRight'" class="requirements__title">Но есть ожидания...</h2>
+                <img v-animate-onscroll="'animated fadeInDown'" src="../assets/laravel.png" alt="laravel"
+                     class="animate-img__laravel">
+                <h2 v-animate-onscroll="'animated fadeInRight'" class="requirements__title">Но есть ожидания...</h2>
                 <div class="requirements__slider slider">
                     <swiper ref="mySwiper" :options="swiperOptions">
                         <swiper-slide>
                             <div class="slider__item slider__item--requirements">
                                 <h3 class="requirements__slider-title">
-                                    ...если ты <span class="requirements__slider-title--bold">full-stack</span> или умеешь  в <span class="requirements__slider-title--bold">back-end / front-end</span>, ждём:
+                                    ...если ты <span class="requirements__slider-title--bold">full-stack</span> или
+                                    умеешь  в <span class="requirements__slider-title--bold">back-end / front-end</span>,
+                                    ждём:
                                 </h3>
                                 <ul class="requirements__slider-list">
                                     <li class="requirements__slider-item">
@@ -214,7 +218,9 @@
                         <swiper-slide>
                             <div class="slider__item slider__item--requirements">
                                 <h3 class="requirements__slider-title">
-                                    ...если ты опытный <span class="requirements__slider-title--bold">DevOps-инженер</span>, необходимы знания:
+                                    ...если ты опытный <span
+                                        class="requirements__slider-title--bold">DevOps-инженер</span>, необходимы
+                                    знания:
                                 </h3>
                                 <ul class="requirements__slider-list">
                                     <li class="requirements__slider-item">
@@ -320,12 +326,16 @@
         </section>
         <section v-animate-onscroll="'animated fadeIn'" class="requirements" v-else>
             <div class="container">
-                <img v-animate-onscroll="'animated fadeInDown'" src="../assets/vue.png" alt="vue" class="animate-img__vue">
+                <img v-animate-onscroll="'animated fadeInDown'" src="../assets/vue.png" alt="vue"
+                     class="animate-img__vue">
                 <img v-animate-onscroll="'animated fadeInDown'" src="../assets/js.png" alt="JS" class="animate-img__js">
-                <img v-animate-onscroll="'animated fadeInDown'" src="../assets/laravel.png" alt="Laravel" class="animate-img__laravel">
+                <img v-animate-onscroll="'animated fadeInDown'" src="../assets/laravel.png" alt="Laravel"
+                     class="animate-img__laravel">
                 <img src="../assets/rotating-el.png" alt="" class="animate-img">
-                <svg class="requirements__bg" width="2250" height="574" viewBox="0 0 1800 574" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M450.938 58.7858C450.938 58.7858 1095.72 129.032 1502 70.3791C1800.5 27.2855 2020.79 -73.2141 2020.79 89.5025C2020.79 252.219 1475.5 709 1229.01 526.353C982.518 343.706 617.391 614.689 420 564.786C-4.84274 457.38 -197 194.79 -197 463.837C-197 857.888 450.938 58.7858 450.938 58.7858Z" fill="#00E0FF"/>
+                <svg class="requirements__bg" width="2250" height="574" viewBox="0 0 1800 574" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M450.938 58.7858C450.938 58.7858 1095.72 129.032 1502 70.3791C1800.5 27.2855 2020.79 -73.2141 2020.79 89.5025C2020.79 252.219 1475.5 709 1229.01 526.353C982.518 343.706 617.391 614.689 420 564.786C-4.84274 457.38 -197 194.79 -197 463.837C-197 857.888 450.938 58.7858 450.938 58.7858Z"
+                          fill="#00E0FF"/>
                 </svg>
                 <h2 class="requirements__title">Но есть ожидания...</h2>
                 <div class="requirements__wrapper">
@@ -333,7 +343,9 @@
                         <div class="requirements__left">
                             <div class="requirements__left-wrapper">
                                 <h3 class="requirements__slider-title">
-                                    ...если ты <span class="requirements__slider-title--bold">full-stack</span> или умеешь  в <span class="requirements__slider-title--bold">back-end / front-end</span>, ждём:
+                                    ...если ты <span class="requirements__slider-title--bold">full-stack</span> или
+                                    умеешь  в <span class="requirements__slider-title--bold">back-end / front-end</span>,
+                                    ждём:
                                 </h3>
                                 <ul class="requirements__slider-list">
                                     <li class="requirements__slider-item">
@@ -395,7 +407,9 @@
                         <div class="requirements__right">
                             <div class="requirements__right-wrapper">
                                 <h3 class="requirements__slider-title">
-                                    ...если ты опытный <span class="requirements__slider-title--bold">DevOps-инженер</span>, необходимы знания:
+                                    ...если ты опытный <span
+                                        class="requirements__slider-title--bold">DevOps-инженер</span>, необходимы
+                                    знания:
                                 </h3>
                                 <ul class="requirements__slider-list">
                                     <li class="requirements__slider-item">
@@ -516,10 +530,25 @@
                 <h2 class="contact__title">Ещё подробнее? Лучше лично!</h2>
                 <form action="" class="form">
                     <div class="form__content">
-                        <input type="text" class="form__input" placeholder="Как к тебе обращаться?" required>
-                        <input type="text" class="form__input" placeholder="Где с тобой связаться?" required>
+                        <input v-model="form.name" type="text" class="form__input" placeholder="Как к тебе обращаться?"
+                               required>
+                        <input v-model="form.phone" type="text" class="form__input" placeholder="Где с тобой связаться?"
+                               required>
                     </div>
-                    <button type="submit" href="#" class="advantages__button">
+                    <span class="error-label" v-if="error">
+                        Пожалуйста, проверьте правильность введённых данных
+                    </span>
+                    <Checkbox class="checkbox" v-model="form.checkbox">
+                        <div>
+                            <p class="form__checkbox">
+                                Согласен с
+                                <a href="https://hotelantifraud.ru/privacy" class="form__checkbox-link"
+                                >политикой обработки персональных данных</a
+                                >
+                            </p>
+                        </div>
+                    </Checkbox>
+                    <button @click.prevent="handleUpload" type="submit" class="advantages__button">
                         Откликнуться!
                     </button>
                 </form>
@@ -538,15 +567,24 @@
     import IconLeft from '../Icon/Left'
     import IconRight from '../Icon/Right'
     import IconStar from '../Icon/Star'
+    import Checkbox from '../Common/Checkbox'
+    import {GoogleSpreadsheet} from 'google-spreadsheet'
 
     import {Swiper, SwiperSlide} from 'vue-awesome-swiper'
     // import style (<= Swiper 5.x)
     import 'swiper/css/swiper.css'
-
+    // flowing-garage-326522-30da1f4e9c73.json
     export default {
         name: 'Home',
         data() {
             return {
+                form: {
+                    name: '',
+                    phone: '',
+                    checkbox: false
+                },
+                error: false,
+                doc: new GoogleSpreadsheet('1BlHy0iQYfWPgLPr7KC9lZwls8pGWRqQinAcyogpijNI'),
                 swiperOptions: {
                     pagination: {
                         el: '.slider__pagination'
@@ -584,7 +622,8 @@
             IconWrapper,
             IconLeft,
             IconRight,
-            IconStar
+            IconStar,
+            Checkbox
         },
         computed: {
             swiper() {
@@ -602,6 +641,26 @@
             handleResize() {
                 this.window.width = window.innerWidth;
                 this.window.height = window.innerHeight;
+            },
+            normalizePhone (tel) {
+                return tel
+                    .split('')
+                    .filter((symbol) => /(\d)+/i.test(symbol))
+                    .join('')
+            },
+            async handleUpload() {
+                console.log(this.form.phone)
+                if (this.form.name.length > 1 && this.form.phone.length > 3 && this.form.checkbox) {
+                    await this.doc.useServiceAccountAuth(require('../../flowing-garage-326522-30da1f4e9c73.json'));
+                    await this.doc.loadInfo();
+                    const sheet = this.doc.sheetsByIndex[0];
+                    await sheet.addRows([
+                        {name: this.form.name, phone: this.normalizePhone(this.form.phone)},
+                    ]);
+                    window.location.reload()
+                } else {
+                    this.error = true
+                }
             }
         }
     }
@@ -678,15 +737,44 @@
         @media screen and (min-width: 800px) {
             min-height: 523px;
         }
-        @keyframes move_first { from { left: -500px } to { left: 40px }  }
-        @keyframes move_third { from { right: 500px } to { right: 0 }  }
-        @keyframes move_second {
-            0% {left: -300px }
-            50% {left: 100px }
-            75% { left: -30px }
-            100% {left: 0}
+        @keyframes move_first {
+            from {
+                left: -500px
+            }
+            to {
+                left: 40px
+            }
         }
-        @keyframes move_first_lg { from { left: -500px } to { left: 45% } }
+        @keyframes move_third {
+            from {
+                right: 500px
+            }
+            to {
+                right: 0
+            }
+        }
+        @keyframes move_second {
+            0% {
+                left: -300px
+            }
+            50% {
+                left: 100px
+            }
+            75% {
+                left: -30px
+            }
+            100% {
+                left: 0
+            }
+        }
+        @keyframes move_first_lg {
+            from {
+                left: -500px
+            }
+            to {
+                left: 45%
+            }
+        }
         @keyframes move_second_lg {
             0% {
                 top: -200px;
@@ -715,7 +803,14 @@
                 left: 40%;
             }
         }
-        @keyframes opacity_changing { from { opacity: 0 } to { opacity: 1 } }
+        @keyframes opacity_changing {
+            from {
+                opacity: 0
+            }
+            to {
+                opacity: 1
+            }
+        }
 
         &__first, &__second {
             font-family: Impact, sans-serif;
@@ -742,6 +837,7 @@
             animation: 1.5s linear move_second;
             white-space: nowrap;
             font-size: 104px;
+
             &--lg {
                 display: none;
                 @media screen and (min-width: 800px) {
@@ -757,6 +853,7 @@
                     white-space: nowrap;
                 }
             }
+
             @media screen and (min-width: 800px) {
                 display: none;
             }
@@ -777,6 +874,7 @@
                 animation: 1s linear move_third_lg;
             }
         }
+
         &__fourth {
             top: 388px;
             left: 39px;
@@ -980,9 +1078,11 @@
             border: none;
             max-width: 286px;
             cursor: pointer;
+
             &:hover {
                 background-color: $redColor;
             }
+
             @media screen and (min-width: 1200px) {
                 font-size: 22px;
                 padding: 18px 0;
@@ -1035,6 +1135,7 @@
                 font-size: 25px;
                 white-space: nowrap;
             }
+
             &::before {
                 content: "\2022";
                 font-size: 18px;
@@ -1132,9 +1233,11 @@
                 line-height: 21px;
                 margin-bottom: 0;
                 font-weight: 500;
+
                 &--bold {
                     font-weight: 900 !important;
                 }
+
                 @media screen and (min-width: 1200px) {
                     font-size: 18px !important;
                 }
@@ -1166,6 +1269,7 @@
                 @media screen and (min-width: 600px) {
                     margin-bottom: 3px;
                 }
+
                 &--no-dots {
                     list-style: none;
                     margin-left: -30px;
@@ -1176,6 +1280,7 @@
 
     .products {
         position: relative;
+
         &__title {
             font-family: "Segoe UI", sans-serif;
             font-size: 36px;
@@ -1286,6 +1391,7 @@
                 width: 2px;
                 background-color: #E5E5E5;
                 margin: 0 26px;
+
                 &-heart {
                     display: none;
                     position: absolute;
@@ -1303,6 +1409,7 @@
                 @media screen and (min-width: 1200px) {
                     border: none;
                 }
+
                 &:last-child {
                     border: none;
                 }
@@ -1330,8 +1437,21 @@
     .form {
         max-width: 80%;
         margin: 0 auto;
+
+        &__checkbox {
+            font-family: Lato, sans-serif;
+            font-size: 9px;
+            font-weight: 400;
+            color: #C4C4C4;
+
+            &-link {
+                color: #C4C4C4;
+                text-decoration: underline;
+            }
+        }
+
         &__content {
-            margin-bottom: 35px;
+            margin-bottom: 25px;
         }
 
         &__input {
@@ -1355,6 +1475,7 @@
             max-width: 594px;
             margin: 0 auto;
         }
+
         &__title {
             font-family: "Segoe UI", sans-serif;
             color: $redColor;
@@ -1370,6 +1491,7 @@
             }
         }
     }
+
     .footer {
         &__date {
             color: #C4C4C4;
@@ -1415,18 +1537,22 @@
                     top: -126px;
                 }
             }
+
             &--blue {
                 left: 56px;
                 background-color: $mainColor;
+
                 &-sec {
                     left: 12px;
                     top: 85px
                 }
+
                 &-third {
                     left: -90px;
                     top: 90px;
                 }
             }
+
             &--black {
                 left: 95px;
                 background-color: #000;
@@ -1434,8 +1560,16 @@
             }
         }
     }
+
     .animate-img {
-        @keyframes move_round { from { transform: rotate(0deg);} to { transform: rotate(360deg); }  }
+        @keyframes move_round {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
         z-index: 2;
         display: none;
         position: absolute;
@@ -1447,6 +1581,7 @@
         @media screen and (min-width: 1200px) {
             display: block;
         }
+
         &__vue {
             @include position_images(-22%, unset, unset, 20px);
             @media screen and (min-width: 1200px) {
@@ -1454,6 +1589,7 @@
                 @include position_images(8%, -4%, unset, unset)
             }
         }
+
         &__laravel {
             @include position_images(-8%, -10px, unset, unset);
             @media screen and (min-width: 1200px) {
@@ -1461,6 +1597,7 @@
                 @include position_images(-8%, 200px, unset, unset)
             }
         }
+
         &__js {
             width: 98px;
             @include position_images(-16%, 85px, unset, unset);
@@ -1473,5 +1610,18 @@
                 @include position_images(-25%, 31px, unset, unset)
             }
         }
+    }
+    .checkbox {
+        margin-bottom: 35px;
+        display: flex;
+        justify-content: center;
+    }
+    .error-label {
+        font-family: Lato, sans-serif;
+        color: red;
+        margin-bottom: 20px;
+        display: block;
+        font-size: 15px;
+        text-align: center;
     }
 </style>
